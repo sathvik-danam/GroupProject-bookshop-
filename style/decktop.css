@@ -38,7 +38,7 @@ body{
     grid-template-rows: auto;
     grid-template-areas: "nav nav nav nav"
                           "header header header header"
-                          "main main main main"
+                          "main main1 main2 main3"
                           "footer footer footer footer";
 }
 nav{

@@ -1,8 +1,64 @@
 /* reference 3, the google font i used*/
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
-*{
+/* reset styles */
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* basic styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+}
+header {
+  background-color: #dd9d2f;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 20px;
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+  padding: 10px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li:last-child {
+  margin-left: auto;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
 body {
@@ -142,4 +198,11 @@ bpich{
   height: 10%;
   margin: 5px;
   position:relative;
+}
+.bookies{
+  width: 30%;
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
 }
