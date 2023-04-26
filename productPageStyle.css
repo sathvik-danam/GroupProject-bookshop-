@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-color: #a68d00;
+  background-color: #dd9d2f;
   color: #fff;
   padding: 20px;
   display: flex;
@@ -132,14 +132,46 @@ nav ul li a {
   border-radius: 5px;
   padding: 20px;
 }
+.btn {
+  padding: 15px 150px;
+  border-radius: 5px;
+  border: none;
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
+
 .line {
   border-top: 4px solid #141010;
   margin: 20px 50px;
 }
 .text-container {
   text-align: center;
-  margin: 20px 0;
+  margin: 20px 50px;
 }
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.box {
+  width: 30%;
+  height: 190px;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+}
+
 
 
   footer {
