@@ -1,0 +1,138 @@
+/* reference 3, the google font i used*/
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  background: linear-gradient(to bottom right, #ffffff 30%, #ffffff 70%);
+  color: #020000;
+}
+
+footer{
+  position: relative;
+  background-color: #da12c9;
+  padding: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1{
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  background-color: #da12c9;
+}
+h3{
+  text-transform: uppercase;
+  color: rgb(192, 7, 7);
+  background-color: #e7e7e7;
+  margin: 5%;
+}
+li{
+  text-align: left;
+}
+
+form{
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+
+  display: grid;
+  width: 400px;
+  grid-template-columns: 100% 100%;
+  align-items: center;
+  grid-gap: .5em;
+}
+
+.btn:hover{
+  background: linear-gradient(to bottom right, #9933ff 30%, #000066 70% );
+}
+
+.btn {
+  text-transform: uppercase;
+  background: linear-gradient(to bottom right,  #000066 30%, #9933ff 70%);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.colpic{
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  position: relative;
+}
+.pfp{
+  width:500px;
+  height:500px;
+}
+
+a{
+  color: #fd0202;
+}
+
+
+.designchanges{
+  width: 85%;
+  height: 5%;
+  margin: 5px;
+  position: relative;
+}
+
+.validation{
+  width: 85%;
+  height: 5%;
+  margin: 5px;
+  position: relative;
+}
+
+.col {
+  float: left;
+  width: 46%;
+  margin: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* styles.css */
+#searchForm {
+  display: flex;
+  align-items: center;
+}
+
+#searchInput {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+bpich{
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  position: relative;
+}
