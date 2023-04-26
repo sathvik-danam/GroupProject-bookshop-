@@ -1,0 +1,65 @@
+/* reference 1*/
+.menutoggle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3c1163;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li{
+    list-style-type: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 1em;
+    display: block;
+}
+
+.menu li:hover{
+    background-color: purple;
+}
+
+.menutoggle input {
+    opacity: 0; /* to hide the checkbox */
+}
+/* here is where the code ends, i only used the first half of the video for a general idea at the start*/
+body{
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "nav nav nav nav"
+                          "header header header header"
+                          "main main main main"
+                          "footer footer footer footer";
+}
+nav{
+    grid-area: nav;
+  }
+  
+  header{
+    grid-area: header;
+    text-align: center;
+  }
+  
+  main{
+    margin: 5% 20%;
+    text-align: center;
+    grid-area: main;
+  }
+  
+  aside{
+    grid-area: aside;
+  }
+  
+  footer{
+    grid-area: footer;
+  }
