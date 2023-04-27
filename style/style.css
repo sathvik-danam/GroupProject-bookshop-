@@ -61,19 +61,10 @@ nav ul li a {
   text-decoration: none;
 }
 
-body {
-  font-family: 'Balsamiq Sans', cursive;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 1.5;
-  background: linear-gradient(to bottom right, #ffffff 30%, #ffffff 70%);
-  color: #020000;
-}
-
 footer{
-  position: relative;
-  background-color: #da12c9;
-  padding: 0px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -81,13 +72,15 @@ footer{
 h1{
   text-transform: uppercase;
   color: rgb(0, 0, 0);
-  background-color: #da12c9;
+  background-color: #dd9d2f;
+  margin-top: 5%;
 }
 h3{
   text-transform: uppercase;
   color: rgb(192, 7, 7);
   background-color: #e7e7e7;
   margin: 5%;
+  position: relative;
 }
 li{
   text-align: left;
@@ -107,74 +100,16 @@ form{
   grid-gap: .5em;
 }
 
-.btn:hover{
-  background: linear-gradient(to bottom right, #9933ff 30%, #000066 70% );
-}
-
-.btn {
-  text-transform: uppercase;
-  background: linear-gradient(to bottom right,  #000066 30%, #9933ff 70%);
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #ffffff;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.colpic{
-  width: 100%;
-  height: 100%;
-  margin: 5px;
-  position: relative;
-}
-.pfp{
-  width:500px;
-  height:500px;
-}
-
 a{
   color: #fd0202;
 }
 
-
-.designchanges{
-  width: 85%;
-  height: 5%;
-  margin: 5px;
-  position: relative;
-}
-
-.validation{
-  width: 85%;
-  height: 5%;
-  margin: 5px;
-  position: relative;
-}
-
-.col {
-  float: left;
-  width: 46%;
-  margin: 10px;
-}
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
-
-/* styles.css */
-#searchForm {
-  display: flex;
-  align-items: center;
-}
-
-#searchInput {
-  flex: 1;
-  padding: 10px;
-  font-size: 16px;
 }
 
 button[type="submit"] {
@@ -186,18 +121,19 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-bpich{
-  width: 100%;
-  height: 100%;
-  margin: 5px;
-  position: relative;
-}
-
 .bookstoreh{
-  width: 35%;
-  height: 10%;
+  width: 30%;
+  height: 5%;
   margin: 5px;
   position:relative;
+  float: left;
+}
+.map{
+  width: 20%;
+  height: 5%;
+  margin: 5px;
+  position:relative;
+  float: right;
 }
 .bookies{
   width: 30%;
@@ -205,4 +141,74 @@ bpich{
   margin-bottom: 30px;
   padding: 20px;
   border: 1px solid #ccc;
+}
+
+main {
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section {
+  display: flex;
+  margin: 5% auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article {
+  width: 30%;
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+article img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+article h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+article p {
+  margin-bottom: 10px;
+}
+
+article button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+article button:hover {
+  background-color: #555;
+}
+
+.aboutus{
+  display: block;
+  margin-left: 10%;
+  margin-right: 50%;
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.facts{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
 }
