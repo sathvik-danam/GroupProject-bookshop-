@@ -1,0 +1,112 @@
+
+/* wishlist page css wl-css*/
+/* wishlist grid*/
+.wishlist{
+  width: 750px;
+  display: flex;
+    margin: 80px auto;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    border-radius: 6px;
+   
+    flex-direction: column;
+   
+    }
+
+    /*title*/
+    .wl-title {
+        height: 60px;
+        border-bottom: 1px solid #D9D9D9;
+        padding: 20px 30px;
+        color: black;
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+      }
+
+       /*wishlist item*/   
+      .wl-item {
+        padding: 20px 30px;
+        height: 120px;
+        display: flex;
+      }
+       
+      .item:nth-child(3) {
+        border-top:  1px solid #E1E8EE;
+        border-bottom:  1px solid #E1E8EE;
+      }
+
+     /*product image*/
+      .wl-image {
+        margin-right: 50px;
+      }
+
+      .wl-img img{
+        width: 70px;
+        height: 100px;
+      }
+       
+     /*product description*/
+      .wl-description {
+        padding-top: 10px;
+        margin-right: 120px;
+        width: 115px;
+      }
+       
+      .wl-description span {
+        display: block;
+        font-size: 14px;
+        color: #43484D;
+        font-weight: 400;
+      }
+       
+      .wl-description span:first-child {
+        margin-bottom: 5px;
+      }
+      .wl-description span:last-child {
+        font-weight: 300;
+        margin-top: 8px;
+        color: #86939E;
+      }
+
+      /*add product to basket button*/
+      .wl-addBtn {
+        background-color: black;
+        border: none;
+        color: white;
+        height: 20px;
+        width: 120px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        padding-top: 3px;
+        margin-top: 20px;
+        margin-inline-start: 100px;
+        font-size: 15px;
+      }
+
+/*remove product from wishlist button*/
+      .wl-deleteBtn {
+        background-color: white;
+        border: black;
+        height: 30px;
+          margin-left: 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+/*price*/
+      .wl-total-price {
+        width: 83px;
+        padding-top: 27px;
+        text-align: center;
+        font-size: 16px;
+        color: #43484D;
+        font-weight: 300;}
+   
+      
+       

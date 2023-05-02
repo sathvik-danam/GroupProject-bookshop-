@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet"href="checkout.css">
+</head>
+
+<body>
+
+
+<h2>Checkout Page:</h2>
+
+<div class="row">
+  <div class="column_75">
+    <div class="form_container">
+      <form action="/checkout_page.php">
+      
+        <div class="row">
+          <div class="column_50">
+            <h3>Billing Address</h3>
+            <label for="Firstname">Full Name*</label>
+            <input type="text" id="fname" name="firstname" placeholder="Jason.M.Donson">
+            <label for="Email"> Email*</label>
+            <input type="text" id="email" name="email" placeholder="Jason@gmail.com">
+            <label for="Address"> City*</label>
+            <input type="text" id="city" name="city" placeholder="London">
+            <label for="City">Telephone Number*</label>
+            <input type="text" id="city" name="telnumber" placeholder="283947392">
+
+            <div class="row">
+              <div class="column_50">
+                <label for="address">Delivery Address*</label>
+                <input type="text" id="address" name="address" placeholder="16 Grassington Close">
+              </div>
+              <div class="column-50">
+                <label for="address">Post Code*</label>
+                <input type="text" id="postcode" name="postcode" placeholder="PE2 3DP">
+              </div>
+              </div>
+          </div>
+
+          <div class="column_50">
+            <h3>Payment</h3>
+            <label for="Firstname">Accepted Cards</label>
+            <div class="icon-container">
+            <img src="public/visa icon.png" alt="Visa card"/> 
+            <img src="public/master card icon.png" alt="Master card"/> 
+            <img src="public/amex card icon.png" alt="Amex card"/> 
+            <img src="public/discover icon.jpeg" alt="Discover card"/>
+
+
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="column_50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="column_50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label class="required-fields">*Required Fields</label>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+  <div class="column_25">
+    <div class="form_container">
+      <h4>Cart <span class="price" style="color:black">
+        <img src="public/shopping cart image .png" alt="Shopping cart image"/><b>2</b></span></h4>
+      <p><a href="#">Items</a> <span class="price">$100</span></p>
+      <p><a href="#">Shopping Fee</a> <span class="price">$10</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$110</b></span></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

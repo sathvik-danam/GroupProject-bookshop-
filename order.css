@@ -1,0 +1,55 @@
+
+/* order history page css o-css*/
+/*order grid*/
+.order{
+    width: 750px;
+    display: flex;
+      margin: 80px auto;
+      background: #FFFFFF;
+      box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+      border-radius: 6px;
+      flex-direction: column;
+     
+      }
+
+      /*title*/
+      .o-title {
+          height: 60px;
+          border-bottom: 1px solid #D9D9D9;
+          padding: 20px 30px;
+          color: black;
+          font-size: 40px;
+          font-weight: 400;
+          text-align: center;
+        }
+         
+        /*order subheading*/   
+        .o-subhead {
+            margin-right: 160px;
+            text-align: center;
+            text-decoration: underline;
+            font-size: smaller;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        /*order item*/      
+        .o-item {
+          padding: 20px 30px;
+          height: 50px;
+          display: flex;
+        }
+         
+        .item:nth-child(3) {
+          border-top:  1px solid #E1E8EE;
+          border-bottom:  1px solid #E1E8EE;
+        }
+  
+       /*order details*/
+        .o-details {
+          margin-right: 150px;
+          font-size: smaller;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+  
+       
+        
+         

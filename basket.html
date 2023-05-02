@@ -1,0 +1,57 @@
+<!-- basket page -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="basket.css" />
+</head>
+
+<body>
+
+  <div class="b-row">
+    <div class="basket">
+
+      <!-- Title -->
+      <div class="b-title">
+        Your Basket
+      </div>
+
+      <!-- Product -->
+      <div class="b-item">
+        <div class="b-img">
+          <!-- Product image -->
+          <div class="b-image">
+            <img src="public/harryPotter.jpg" alt="" />
+          </div>
+        </div>
+        <!-- Product  description -->
+        <div class="b-description">
+          <span>Harry Potter</span>
+          <span>Jk Rowling</span>
+        </div>
+        <!-- Product  price -->
+        <div class="b-total-price">£16.99</div>
+        <!--Remove product from basket -->
+        <input type="button" class="b-deleteBtn" value="Remove"></input>
+      </div>
+
+    </div>
+
+    <!-- OrderSummary/checkout-->
+    <div class="b-order">
+      <!-- Title -->
+      <h1 class="order">Order Summary</h1>
+      <div class="b-line1"></div>
+      <!-- Number of items -->
+      <h2 class="order">Items:<span class="order">1</span></h2>
+      <!-- Toatal amount-->
+      <h2 class="order">Total:<span class="order">£16.99</span> </h2>
+      <!--Link to checkout -->
+      <div class="b-line2"></div>
+      <a href="#" class="b-checkoutBtn">CHECKOUT</a>
+    </div>
+    <!--Link to home page -->
+    <a href="#" class="continue">Continue shopping</a>
+</body>
+
+</html>
