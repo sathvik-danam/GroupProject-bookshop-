@@ -1,0 +1,233 @@
+/* reference 3, the google font i used*/
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+/* reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* basic styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+}
+header {
+  background-color: #dd9d2f;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 20px;
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+  padding: 10px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li:last-child {
+  margin-left: auto;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer{
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1{
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  background-color: #dd9d2f;
+  margin-top: 5%;
+}
+h3{
+  text-transform: uppercase;
+  color: rgb(192, 7, 7);
+  background-color: #e7e7e7;
+  margin: 5%;
+  position: relative;
+}
+li{
+  text-align: left;
+}
+
+form{
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+
+  display: grid;
+  width: 400px;
+  grid-template-columns: 100% 100%;
+  align-items: center;
+  grid-gap: .5em;
+}
+
+a{
+  color: #fd0202;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.bookstoreh{
+  width: 30%;
+  height: 5%;
+  margin: 5px;
+  position:relative;
+  float: right;
+}
+.map{
+  width: 20%;
+  height: 5%;
+  margin: 5px;
+  position:relative;
+  float: right;
+}
+.bookies{
+  width: 30%;
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+main {
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section {
+  display: flex;
+  margin: 5% auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article {
+  width: 30%;
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+article img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+article h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+article p {
+  margin-bottom: 10px;
+}
+
+article button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+article button:hover {
+  background-color: #555;
+}
+
+.aboutus{
+  display: block;
+  margin-left: 10%;
+  margin-right: 50%;
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.facts{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+articl {
+  background-color: #9e3131;
+  margin-bottom: 30em;
+  padding: 10px;
+  border: 10px solid #d2ff0b;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  margin: 5% auto;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+articl p {
+  margin-bottom: 10px;
+  font-size: large;
+}
